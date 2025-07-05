@@ -81,6 +81,7 @@ body {
   padding: 0 24px;
   font-weight: bold;
   background: #DC3545;
+  letter-spacing: 0.03em;
 }
 .section-button {
   line-height: 2.83333333;
@@ -104,6 +105,9 @@ p:has(+p>.section-phone) {
 }
 p:has(+p>.section-button) {
   margin-bottom: 1.33333333em;
+}
+p:last-child {
+  margin-bottom: 0;
 }
 a {
   color: inherit;

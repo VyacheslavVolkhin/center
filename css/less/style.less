@@ -79,6 +79,7 @@ body {
 	padding: 0 24px;
 	font-weight: bold;
 	background: #DC3545;
+	letter-spacing: 0.03em;
 }
 .section-button {
 	line-height: (68/24);
@@ -101,6 +102,9 @@ p {
 	}
 	&:has(+p>.section-button) {
 		margin-bottom: (32/24em);
+	}
+	&:last-child {
+		margin-bottom: 0;
 	}
 }
 
